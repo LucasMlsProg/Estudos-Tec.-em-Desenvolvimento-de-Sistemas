@@ -51,3 +51,18 @@ listarUmProduto("Fone")
 deletarItem("Fone")
 
 listarUmProduto("Fone")
+
+
+
+
+
+
+use produtos_db
+
+db.produtos.insertMany([{nome:"Notebook",Valor:"1900,00",categoria:"Eletronico"},{nome:"Celular",Valor:"1800",categoria:"Eletronico"}])
+
+db.produtos.find()
+db.produtos.updateOne({{{nome: "Notebook"},{ $set: { estoque: 15 } }});
+
+db.produtos.deleteOne({ nome: "Mouse Gamer" });
+db.produtos.find()
