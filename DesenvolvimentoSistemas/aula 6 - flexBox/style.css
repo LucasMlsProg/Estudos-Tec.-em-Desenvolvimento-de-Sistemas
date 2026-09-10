@@ -62,7 +62,7 @@ body {
 }
 
 #container {
-    height: 90vh;
+    height: 85vh;
     width: 100vw;
 
     display: flex;
@@ -141,3 +141,13 @@ body {
     }
 }
 
+.footer {
+    background-color: aliceblue;
+    margin: 5px;
+    border-radius: 5px;
+    color: brown;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
