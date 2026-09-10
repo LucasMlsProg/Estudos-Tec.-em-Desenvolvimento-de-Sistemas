@@ -1,0 +1,143 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #2563eb;
+}
+
+.text-organize {
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+
+    h1 {
+
+        background-color: #fcd34d;
+        color: black;
+        font-size: 50px;
+        margin-bottom: 40px;
+        
+    }
+
+    h3 {
+
+        box-shadow: 2px 4px 8px rgba(0, 0, 0, 0.1);
+        border-radius: 8px;
+
+        height: 50px;
+        
+        background-color: #fef3c7;
+        color: black;
+        font-size: 30px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        margin-bottom: 40px;
+
+        padding: 20px;
+    }
+
+    p {
+        height: 100px;
+        width: 500px;
+        
+        background-color: #f38404;
+        color: #fde68a;
+        font-size: 20px;
+
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        padding: 20px;
+    }
+}
+
+#container {
+    height: 90vh;
+    width: 100vw;
+
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+
+#container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    flex: 1;
+    background-size: cover;
+    background-position: center;
+
+    border-radius: 9px;
+    margin: 1px;
+
+    transition: flex-grow .3s ease;
+}
+
+#container > div:hover {
+    flex-grow: 3;
+
+    padding: 50px;
+
+    .text-organize {
+            display: flex;
+        }
+}
+
+#div-um {
+    background-image: url(assets/51UY4RqnOGL._AC_.jpg);
+}
+
+#div-dois {
+    background-image: url(assets/cPK_20_000890_01_GEKKOUGA_AR.webp);
+
+    flex-shrink: 3;
+}
+#div-tres {
+    background-image: url(assets/D_NQ_NP_2X_710175-MLB92388810423_092025-F-carta-pokemon-salamence-ex-full-arte-amigos-de-jornada.webp);
+}
+#div-quatro {
+    background-image: url(assets/OIP\ \(1\).webp);
+}
+
+#div-header {
+    flex-direction: row;
+    height: 10vw;
+    background-color: #faf8f3f1;
+    padding: 15px;
+    justify-content: center;
+    display: flex;
+    margin:4px;
+    align-items: center;
+    border-radius: 20px;
+}
+
+.buttons {
+    display: flex;
+    background-color: rgba(226, 12, 12, 0.856);
+    border: 5;
+    border-color: #000000;
+    padding: 20px;
+    border-radius: 30px;
+    margin: 15px;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    cursor: pointer;
+
+    buttons:hover{
+        background-color: azure;
+    }
+}
+
